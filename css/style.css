@@ -1,0 +1,113 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #e7bc84f1;
+    padding: 3px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3px;
+}
+
+h1{
+    color: gray;
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 18px;
+}
+
+.calculadora{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: black;
+    width: 350px;
+    height: 490px;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+#sub-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f88d02f1;
+    padding: 8px;
+}
+
+
+#tela-resultado {
+    background-color: white;
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.calculadora--teclas {
+    margin: 10px;
+}
+
+button {
+    width: 70px;
+    height: 68px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+button:hover {
+    background-color: rgba(169, 169, 169, 0.452);
+    color: white;
+}
+
+#botao--deletar-tudo {
+    color: #f88d02f1;
+}
+
+#botao--deletar-tudo:hover {
+    background-color:#f88d02f1;
+    color: white;
+}
+
+.teclas--operadores:hover {
+    background-color:#f88d02f1;
+    color: white;
+}
+
+.tecla--igual {
+    height: 136px;
+    color: #f88d02f1;
+}
+
+.tecla--zero {
+    width: 140px;
+}
+
+#rotape {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+}
+
+#rotape p a {
+    text-decoration: none;
+    color: gray;
+}
+
+#rotape p a:hover {
+    color: rgba(0, 0, 0, 0.658); ;
+}
+
