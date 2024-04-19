@@ -13,38 +13,51 @@
         <h1>Vamos Calcular ?</h1>
 
         <div class="calculadora">
-            <div class="calculadora--display">0</div>
+            <h2 id="sub-titulo">Calculadora</h2>
 
-            <div class="calculadora--teclas">
+            <p id="tela-resultado">aaaa</p> <!--area onde ira fica os resultados das operações-->
                 
-                <button id="botao--deletar-tudo">AC</button>
-                <button class="teclas--operadores">%</button>
-                <button class="teclas--operadores">/</button>
-                <button id="bnt--deletar">C</button>
+            <table class="calculadora--teclas">
+                <tr>
+                    <td><button id="botao--deletar-tudo">C</button></td>
+                    <td><button class="teclas--operadores"><</button></td>
+                    <td><button class="teclas--operadores">/</button></td>
+                    <td><button class="teclas--operadores">X</button></td>
+                </tr>
 
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="teclas--operadores">X</button>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button class="teclas--operadores">-</button></td>
+                </tr>
 
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="teclas--operadores">-</button>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button class="teclas--operadores">+</button></td>
+                </tr>
 
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="teclas--operadores">+</button>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td rowspan="2"><button class="tecla--igual  teclas--operadores">=</button></td>
+                </tr>
 
-                <button>0</button>
-                <button>.</button>
-                <button class="tecla--igual">=</button>
-            </div>
-
+                <tr>
+                    <td colspan="2"><button class="tecla--zero">0</button></td>
+                    <td><button>.</button></td>
+                </tr>
+            </table>
         </div>
-
-
-
     </div>
+
+    <footer id="rotape">
+        <p>Desenvolvindo por <a href="https://github.com/thamiresantos" target="_blank">Thamires Santos</a></p>
+    </footer>
+</body>
+</html>
+
 
