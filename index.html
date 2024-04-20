@@ -15,40 +15,40 @@
         <div class="calculadora">
             <h2 id="sub-titulo">Calculadora</h2>
 
-            <p id="tela-resultado">aaaa</p> <!--area onde ira fica os resultados das operações-->
+            <p id="tela-resultado"></p> <!--area onde ira fica os resultados das operações-->
                 
             <table class="calculadora--teclas">
                 <tr>
-                    <td><button id="botao--deletar-tudo">C</button></td>
-                    <td><button class="teclas--operadores"><</button></td>
-                    <td><button class="teclas--operadores">/</button></td>
-                    <td><button class="teclas--operadores">X</button></td>
+                    <td><button id="botao--deletar-tudo" onclick="limpar()">C</button></td>
+                    <td><button class="teclas--operadores" onclick="voltar()"><</button></td>
+                    <td><button class="teclas--operadores" onclick="insert('/')">/</button></td>
+                    <td><button class="teclas--operadores" onclick="insert('*')">X</button></td>
                 </tr>
 
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button class="teclas--operadores">-</button></td>
+                    <td><button onclick="insert('7')">7</button></td>
+                    <td><button onclick="insert('8')">8</button></td>
+                    <td><button onclick="insert('9')">9</button></td>
+                    <td><button class="teclas--operadores" onclick="insert('-')">-</button></td>
                 </tr>
 
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button class="teclas--operadores">+</button></td>
+                    <td><button onclick="insert('4')">4</button></td>
+                    <td><button onclick="insert('5')">5</button></td>
+                    <td><button onclick="insert('6')">6</button></td>
+                    <td><button class="teclas--operadores" onclick="insert('+')">+</button></td>
                 </tr>
 
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td rowspan="2"><button class="tecla--igual  teclas--operadores">=</button></td>
+                    <td><button onclick="insert('1')">1</button></td>
+                    <td><button onclick="insert('2')">2</button></td>
+                    <td><button onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="tecla--igual  teclas--operadores" onclick="calcular()">=</button></td>
                 </tr>
 
                 <tr>
-                    <td colspan="2"><button class="tecla--zero">0</button></td>
-                    <td><button>.</button></td>
+                    <td colspan="2"><button class="tecla--zero" onclick="insert('0')">0</button></td>
+                    <td><button onclick="insert('.')">.</button></td>
                 </tr>
             </table>
         </div>
