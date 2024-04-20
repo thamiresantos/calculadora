@@ -3,6 +3,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -22,7 +23,6 @@ h1{
     color: gray;
     font-size: 2em;
     text-align: center;
-    font-family: sans-serif;
     margin: 18px;
 }
 
@@ -36,11 +36,9 @@ h1{
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    
 }
 
 #sub-titulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f88d02f1;
     padding: 8px;
 }
@@ -51,6 +49,9 @@ h1{
     width: 290px;
     height: 60px;
     border-radius: 5px;
+    text-align:right;
+    font-size: 24px;
+    padding: 14px;
 }
 
 .calculadora--teclas {
@@ -108,6 +109,6 @@ button:hover {
 }
 
 #rotape p a:hover {
-    color: rgba(0, 0, 0, 0.658); ;
+    color:  rgba(0, 0, 0, 0.658);
 }
 
